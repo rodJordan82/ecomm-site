@@ -1,0 +1,29 @@
+
+
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 5%;
+  & > img {
+    max-width: 100%;
+
+  }
+
+  &:hover {
+      cursor: pointer;
+      background-color: #a1aad5;
+    }
+}
+
+.tag{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  
+
+}

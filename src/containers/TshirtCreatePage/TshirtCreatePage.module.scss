@@ -1,0 +1,16 @@
+.TshirtCreatePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    & form {
+        & div {
+            margin: 30px 0;
+        }
+
+        & label {
+            margin-right: 30px;
+        }
+    }
+}
