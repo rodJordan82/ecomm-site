@@ -28,9 +28,8 @@ const TshirtsPage = () => {
                         <br />
                         {tshirt.size}
                         <br />
-                        ${tshirt.price}
-
-                    </p>
+                        ${tshirt.price - ((tshirt.price/100) * tshirt.discount)}
+                        </p>
                     </Link>
                 ))}
             </tag>

@@ -1,8 +1,36 @@
 .tshirt {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  flex-direction: column;
-  margin-left: 20%;
-  margin-right: 20%;
-  max-width: 60%;
+  align-items: center;
+  padding: 30px;
+  & > img{
+    max-height: 90vh;
+  }
+  //flex-direction: column;
+  // margin-left: 35%;
+  // margin-right: 35%;
+  // max-width: 30%;
+  //&.notImage{
+    // display: flex;
+    // //justify-content: center;
+    // flex-direction: column;
+    
+
+   
+  //}
+}
+
+.notImage {
+  text-align: center;
+}
+
+.Quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_Btn {
+    margin: 30px;
+  }
 }

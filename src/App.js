@@ -6,6 +6,7 @@ import TshirtPage from "./containers/TshirtPage";
 import TshirtCreatePage from "./containers/TshirtCreatePage";
 import Nav from "./containers/Nav";
 
+
 function App() {
     return (
         <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
             <Routes>
                 {/* <Route path="/" element={<App />}> */}
                 {/* <Route index element={<Home />} /> */}
+                <Route exact path="/" element={<TshirtsPage />} />
                 <Route path="tshirt" element={<TshirtsPage />} />
                 <Route path="tshirts/:id" element={<TshirtPage />} />
                 <Route
